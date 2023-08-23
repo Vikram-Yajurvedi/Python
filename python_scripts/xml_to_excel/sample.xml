@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<PurchaseOrders>Root
+  <PurchaseOrder PurchaseOrderNumber="99503" OrderDate="1999-10-20">P1
+    <Address Type="Shipping">C1
+      <Name>Ellen Adams</Name>
+      <Street>123 Maple Street</Street>
+      <City>Mill Valley</City>
+      <State>CA</State>
+      <Zip>10999</Zip>
+      <Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Tai Yee</Name>
+      <Street>8 Oak Avenue</Street>
+      <City>Old Town</City>
+      <State>PA</State>
+      <Zip>95819</Zip>
+      <Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Please leave packages in shed by driveway.</DeliveryNotes>
+	<D1>D1</D1>
+    <Items>
+      <Item PartNumber="872-AA">
+        <ProductName>Lawnmower</ProductName>
+        <Quantity>1</Quantity>
+        <USPrice>148.95</USPrice>
+        <Comment>Confirm this is electric</Comment>
+      </Item>
+      <Item PartNumber="926-AA">
+        <ProductName>Baby Monitor</ProductName>
+        <Quantity>2</Quantity>
+        <USPrice>39.98</USPrice>
+        <ShipDate>1999-05-21</ShipDate>
+      </Item>
+    </Items>
+  </PurchaseOrder>
+  <PurchaseOrder PurchaseOrderNumber="99505" OrderDate="1999-10-22">P2
+    <Address Type="Shipping">
+      <Name>Cristian Osorio</Name>
+      <Street>456 Main Street</Street>
+      <City>Buffalo
+		<c1>c1
+			<c2>c2
+				<State>mystate</State>
+			</c2>
+		</c1>
+	  </City>
+      <State>NY</State>
+      <Zip>98112</Zip>
+      <Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Cristian Osorio</Name>
+      <Street>456 Main Street</Street>
+      <City>Buffalo</City>
+      <State>NY</State>
+      <Zip>98112</Zip>
+      <Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Please notify me before shipping.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="456-NM">
+        <ProductName>Power Supply</ProductName>
+        <Quantity>1</Quantity>
+        <USPrice>45.99</USPrice>
+      </Item>
+    </Items>
+  </PurchaseOrder>
+  <PurchaseOrder PurchaseOrderNumber="99504" OrderDate="1999-10-22">P3
+    <Address Type="Shipping">
+      <Name>Jessica Arnold</Name>
+      <Street>4055 Madison Ave</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98112</Zip>
+      <Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jessica Arnold</Name>
+      <Street>4055 Madison Ave</Street>
+      <City>Buffalo</City>
+      <State>NY</State>
+      <State1>S1
+        <S2>S2
+          <S3>S3</S3>
+        </S2>
+      </State1>
+      <Zip>98112</Zip>
+      <Country>USA</Country>
+    </Address>
+    <Items>
+      <Item PartNumber="898-AZ">
+        <ProductName>Computer Keyboard</ProductName>
+        <Quantity>1</Quantity>
+        <USPrice>29.99</USPrice>
+      </Item>
+      <Item PartNumber="898-AM">item 1
+        <ProductName>Wireless Mouse</ProductName>
+        <Quantity>1
+			<Q1>q1</Q1>
+		</Quantity>
+        <USPrice>14.99</USPrice>
+      </Item>
+    </Items>
+  </PurchaseOrder>
+  <PurchaseOrder PurchaseOrderNumber="99505" OrderDate="1999-10-22">P4 </PurchaseOrder>
+</PurchaseOrders>
