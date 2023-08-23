@@ -25,8 +25,7 @@ def get_temp_arry():
 
 data = "sample.xml"
 output_dict={}
-pd.set_option("max_rows", None)
-pd.set_option('max_columns', None)
+
 tree = etree.parse(data)
 lstKey = []
 lstValue = []
